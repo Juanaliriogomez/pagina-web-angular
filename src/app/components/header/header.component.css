@@ -1,0 +1,8 @@
+nav ul li{list-style: none; float:left; margin: 8px; padding: 12px; position: relative; background: gray;}
+
+a{text-decoration: none;}
+
+nav ul li ul li{ clear: both; display: none;}
+
+nav ul li:hover ul>li{margin:0px; right:50%; display: block; line-height: 100%; }
+

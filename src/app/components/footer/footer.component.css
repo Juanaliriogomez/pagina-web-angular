@@ -1,0 +1,7 @@
+.wrapper{display: grid;}
+
+.footer{ display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));}
+
+.box { background: gray; text-align: left; padding: 1.5rem 2rem; box-shadow: blue; }
+
+ 

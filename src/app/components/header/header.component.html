@@ -1,0 +1,28 @@
+<div id="header">
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="">name</a></li>
+                <li>Productos
+                    <ul>
+                        <li>Chaquetas</li>
+                        <li>Botas</li>
+                    </ul>
+                </li>
+                <li>Contacto</li>
+                <li class="item button"><a href="#">Log In</a></li>
+                <li class="item button secondary"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="login">
+        <div id="seccion">
+            <input type="text" [value]="nombre.value" (keyup.enter)="dataUser(nombre.value)" #nombre />
+            <p>{{ submitMessage }}</p>
+            <input type="text" (change)="true" #groupRef>
+            <p>{{groupRef.value}}</p>
+        </div>
+
+    </div>
+
+</div>
